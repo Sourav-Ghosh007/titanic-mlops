@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python train_mlflow.py
+    deps:
+    - path: titanic_data.csv
+      hash: md5
+      md5: 6a7a2ed01936ef56e903ba2bb2f6fbc6
+      size: 57910
+    - path: train_mlflow.py
+      hash: md5
+      md5: 3f857956c9198b7fdf391a5e09ff0e50
+      size: 3102
+    outs:
+    - path: model.pkl
+      hash: md5
+      md5: 3ffb15f28ec753a270900d0122ef0dfe
+      size: 2950995
