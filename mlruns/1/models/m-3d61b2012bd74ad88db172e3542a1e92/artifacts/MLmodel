@@ -1,0 +1,23 @@
+artifact_path: file:E:/DataScience/DataScience/ML Ops/titanic-mlops/mlruns/1/models/m-3d61b2012bd74ad88db172e3542a1e92/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-3d61b2012bd74ad88db172e3542a1e92
+model_size_bytes: 2064285
+model_uuid: m-3d61b2012bd74ad88db172e3542a1e92
+prompts: null
+run_id: 53e70d304bc7474295911278c724ee44
+utc_time_created: '2026-07-11 22:51:00.741106'
